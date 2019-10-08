@@ -1,0 +1,121 @@
+#information h1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+    color: lightblue;
+}
+.contact p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.about{
+    position: relative;
+    float: none;
+    text-align: center;
+    vertical-align: middle;
+}
+.about img{
+    position: absolute;
+    width: 14%;
+    top: 0px;
+    left: 0px;
+}
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: gray;
+}
+.experience {
+    height: 300px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.experience h1{
+    text-align: center;
+}
+.work {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+    height: 300px;
+    border: 6px solid black;
+    height: 300px;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.experience::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.interest{
+    font-family: serif;
+    text-align: center;
+}
+
+.company img {
+    width: 130px;
+    height: auto;
+}
+.company {
+    box-sizing: border-box;
+    float: left;
+    width: 10%;
+    padding: 5px;
+}
+.companies::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.technical h1{
+    text-align: center;
+}
+.assignment {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.projects {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+    height: 300px;
+    border: 6px solid black;
+    height: 300px;
+    left: 50%;
+    margin-left: -3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.companies {
+    border: 6px solid black;
+}
+.company img{
+    width: 100px;
+}
+
